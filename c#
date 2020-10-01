@@ -35,7 +35,7 @@ public class BlockDestroy : MonoBehaviour {
     }
 
     // Use this for initialization
-    int Start () {
+    void Start () {
         xPos = transform.position.x;
         yPos = transform.position.y;
         zPos = transform.position.z;
